@@ -17,26 +17,6 @@ L’enjeu central : **comprendre quels facteurs socio-démographiques influencen
 
 ##  2. Structure du dépôt
 
-📁 Projet-INSEE-analyse-Mobilite-IDF
-│
-├── utils2.py # Fonctions utilitaires (nettoyage, filtres, gestion des données)
-├── CodeCelib.ipynb # Analyses initiales
-├── CodeM1SE.ipynb # Analyses descriptives et exploration
-├── projet_nestedlogit_mehdi.ipynb # Modèle économétrique (Nested Logit)
-│
-├── mono_clean.parquet # Données nettoyées
-├── single_clean.parquet
-├── individus_sans_zone.parquet
-│
-├── ConduiteProjet_Methodologie_M1SE.pdf
-├── Prblématiques.docx
-├── Les variables principales.docx
-├── DictionnairesVariables.pdf / .xlsx
-│
-├── requirements.txt
-└── LICENSE
-
-
 ## 3. Construction et préparation du jeu de données
 
 Le travail repose sur un **pipeline de nettoyage robuste**, comprenant :
